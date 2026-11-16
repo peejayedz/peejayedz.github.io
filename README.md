@@ -9,7 +9,7 @@ Every project site is then served at `dashboard.lawfirmmarketingpros.com/<repo>/
 
 Team paths are behind Cloudflare Access (Google sign-in, @lawfirmmarketingpros.com): `/ghl-subaccount-builder-page/`, `/leadpro-kpi/admin/`,
 `/automation-review/admin/`, `/automation-review/preview/`, `/clockin-report/`, `/invoice-builder/`, `/ghl-marketing-dashboard/`,
-`/lfmp-team-training/`, `/agency-analytics-weekly-report/`. Everything else (client KPI dashboards, review pages, `/leadpro-training/`,
+`/agency-analytics-weekly-report/`, `/lfmp-kpi-scorecard/`, `/leadpro-kpi-mahdavi/`. Everything else (client KPI dashboards, review pages, `/leadpro-training/`, `/lfmp-team-training/` (shown inside GHL),
 `/lfmp-oauth/`, `/mkm-luxury-kpi-dashboard/`, `/premier-builders-kpi/`) is public.
 
 **Rollback:** remove the custom domain in this repo's Settings → Pages (or delete `CNAME`), then PJ removes the `dashboard` DNS record in Cloudflare.
